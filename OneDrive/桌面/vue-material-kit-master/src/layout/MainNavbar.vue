@@ -93,23 +93,15 @@
                 </a>
               </li> -->
 
-              <md-list-item
-                href="javascript:void(0)"
-                @click="scrollToElement()"
-                v-if="showDownload"
-              >
-                <a href="#/room">
+              <md-list-item>
+                <a href="#/">
                   <i class="material-icons">layers</i>
                   <p>關於我們</p>
                 </a>
               </md-list-item>
 
-              <md-list-item
-                href="javascript:void(0)"
-                @click="scrollToElement()"
-                v-if="showDownload"
-              >
-                <a href="#/room">
+              <md-list-item>
+                <a href="#/profile">
                   <i class="material-icons">content_paste</i>
                   <p>訂房須知</p>
                 </a>
@@ -117,7 +109,6 @@
               <md-list-item
                 href="javascript:void(0)"
                 @click="scrollToElement()"
-                v-if="showDownload"
               >
                 <a href="#/room">
                   <i class="material-icons">bed</i>
@@ -128,8 +119,11 @@
               <md-list-item
                 href="javascript:void(0)"
                 @click="scrollToElement1()"
-                v-if="showDownload"
               >
+                <!-- 打開 -->
+                <!-- v-if="showDownload" -->
+                <!-- 關閉 -->
+                <!-- v-if="!showDownload" -->
                 <a href="#/room1">
                   <i class="material-icons">home</i>
                   <p>{{ roomFour }}</p>
@@ -139,7 +133,6 @@
               <md-list-item
                 href="javascript:void(0)"
                 @click="scrollToElement2()"
-                v-if="showDownload"
               >
                 <a href="#/room2">
                   <i class="material-icons">holiday_village</i>
@@ -150,7 +143,6 @@
               <md-list-item
                 href="javascript:void(0)"
                 @click="scrollToElement2()"
-                v-if="showDownload"
               >
                 <a href="#/landing">
                   <i class="material-icons">view_day</i>
