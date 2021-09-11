@@ -369,10 +369,10 @@ export default {
       message: null,
       classicModal: false,
       selectedDate: new Date("2018/03/26"),
-      carousel1: require("@/assets/img/room1-1.jpg"),
-      carousel2: require("@/assets/img/room1-2.jpg"),
-      carousel3: require("@/assets/img/room1-3.jpg"),
-      carousel4: require("@/assets/img/room1-4.jpg")
+      carousel1: require("@/assets/img/room2-1.jpg"),
+      carousel2: require("@/assets/img/room2-2.jpg"),
+      carousel3: require("@/assets/img/room2-3.jpg"),
+      carousel4: require("@/assets/img/room2-4.jpg")
     };
   },
   computed: {

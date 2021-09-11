@@ -179,22 +179,16 @@
                 <img :src="carousel2" alt="carousel2" />
               </slide>
               <slide>
-                <!-- <div class="carousel-caption">
-                  <h4>
-                    <md-icon>location_on</md-icon>
-                    Yellowstone National Park, United States
-                  </h4>
-                </div> -->
                 <img :src="carousel3" alt="carousel3" />
               </slide>
               <slide>
-                <!-- <div class="carousel-caption">
-                  <h4>
-                    <md-icon>location_on</md-icon>
-                    Yellowstone National Park, United States
-                  </h4>
-                </div> -->
                 <img :src="carousel4" alt="carousel4" />
+              </slide>
+              <slide>
+                <img :src="carousel5" alt="carousel5" />
+              </slide>
+              <slide>
+                <img :src="carousel6" alt="carousel6" />
               </slide>
             </carousel>
           </md-card>
@@ -215,9 +209,11 @@ export default {
       classicModal: false,
       selectedDate: new Date("2018/03/26"),
       carousel1: require("@/assets/img/nature.jpg"),
-      carousel2: require("@/assets/img/nature-2.jpg"),
-      carousel3: require("@/assets/img/nature-3.jpg"),
-      carousel4: require("@/assets/img/nature-4.jpg")
+      carousel2: require("@/assets/img/vue-mk-header5.jpg"),
+      carousel3: require("@/assets/img/nature-6.jpg"),
+      carousel4: require("@/assets/img/nature-2.jpg"),
+      carousel5: require("@/assets/img/nature-4.jpg"),
+      carousel6: require("@/assets/img/nature-5.jpg")
     };
   },
   methods: {

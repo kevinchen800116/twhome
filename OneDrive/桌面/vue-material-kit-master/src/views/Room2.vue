@@ -67,15 +67,6 @@
                 </div> -->
                     <img :src="carousel3" alt="carousel3" />
                   </slide>
-                  <slide>
-                    <!-- <div class="carousel-caption">
-                  <h4>
-                    <md-icon>location_on</md-icon>
-                    Yellowstone National Park, United States
-                  </h4>
-                </div> -->
-                    <img :src="carousel4" alt="carousel4" />
-                  </slide>
                 </carousel>
               </md-card>
             </div>
@@ -371,10 +362,9 @@ export default {
       message: null,
       classicModal: false,
       selectedDate: new Date("2018/03/26"),
-      carousel1: require("@/assets/img/room1-1.jpg"),
-      carousel2: require("@/assets/img/room1-2.jpg"),
-      carousel3: require("@/assets/img/room1-3.jpg"),
-      carousel4: require("@/assets/img/room1-4.jpg")
+      carousel1: require("@/assets/img/room3-1.jpg"),
+      carousel2: require("@/assets/img/room3-2.jpg"),
+      carousel3: require("@/assets/img/room3-3.jpg")
     };
   },
   computed: {
