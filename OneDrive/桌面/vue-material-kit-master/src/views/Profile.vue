@@ -40,24 +40,15 @@
             </div>
           </div>
           <div class="description text-center">
-            <!-- <h2>宜蘭童玩民宿訂房辦法</h2> -->
-            <!-- <h4>預定流程</h4> -->
-            <!-- <p style="color:black"> -->
-            <h4>
+            <p>
               務必請您先確認預訂入住的日期和房型是否還有空房。
-            </h4>
-            <!-- </p> -->
-            <!-- <p style="width:650px;color:black"> -->
-            <h4 style="width:610px">
+            </p>
+            <p>
               預約定金為每個房間1000元，需於兩日內完成定金匯款，始完成訂房。
-              <!-- ，並請通知核對後始完成訂房 -->
-            </h4>
-            <!-- </p> -->
-            <!-- <p style="width:650px;color:black"> -->
-            <h4 style="width:640px">
-              若未能在期限完成定金匯款，將取消您的預訂，且不另行通知，謝謝您的諒解!。
-            </h4>
-            <!-- </p> -->
+            </p>
+            <p>
+              若未能在期限完成定金匯款，將取消您的預訂，且不另行通知，謝謝您的諒解!
+            </p>
           </div>
           <div class="profile-tabs">
             <tabs

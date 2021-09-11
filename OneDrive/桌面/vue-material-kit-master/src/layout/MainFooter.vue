@@ -7,13 +7,16 @@
     <div class="container">
       <nav>
         <ul>
-          <li style="font-weight:bolder;padding-right:10px">
+          <!-- <li style="font-weight:bolder;padding-right:10px"> -->
+          <li class="copyright">
             專線 | TEL 0938789858
           </li>
-          <li style="font-weight:bolder;padding-right:10px">
+          <!-- <li style="font-weight:bolder;padding-right:10px"> -->
+          <li class="copyright">
             地址 | 宜蘭縣五結鄉親河路二段103巷1弄15號
           </li>
-          <li style="font-weight:bolder;padding-right:10px">
+          <!-- <li style="font-weight:bolder;padding-right:10px"> -->
+          <li class="copyright">
             LINE | 0938789858
           </li>
         </ul>

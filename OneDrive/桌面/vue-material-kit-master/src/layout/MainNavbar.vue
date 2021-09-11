@@ -35,7 +35,7 @@
             </mobile-menu>
             <md-list>
               <!-- <li class="md-list-item" v-if="!showDownload">123</li> -->
-              <li class="md-list-item">
+              <!-- <li class="md-list-item">
                 <a
                   href="javascript:void(0)"
                   class="md-list-item-router md-list-item-container md-button-clean dropdown"
@@ -49,7 +49,6 @@
                       >
                         <i class="material-icons">apps</i>
                         <p>Menu</p>
-                        <!-- 菜單 -->
                       </md-button>
                       <ul class="dropdown-menu dropdown-with-icons">
                         <li>
@@ -92,12 +91,23 @@
                     </drop-down>
                   </div>
                 </a>
-              </li>
+              </li> -->
 
               <md-list-item
                 href="javascript:void(0)"
                 @click="scrollToElement()"
-                v-if="!showDownload"
+                v-if="showDownload"
+              >
+                <a href="#/room">
+                  <i class="material-icons">layers</i>
+                  <p>關於我們</p>
+                </a>
+              </md-list-item>
+
+              <md-list-item
+                href="javascript:void(0)"
+                @click="scrollToElement()"
+                v-if="showDownload"
               >
                 <a href="#/room">
                   <i class="material-icons">content_paste</i>
@@ -107,7 +117,7 @@
               <md-list-item
                 href="javascript:void(0)"
                 @click="scrollToElement()"
-                v-if="!showDownload"
+                v-if="showDownload"
               >
                 <a href="#/room">
                   <i class="material-icons">bed</i>
@@ -118,7 +128,7 @@
               <md-list-item
                 href="javascript:void(0)"
                 @click="scrollToElement1()"
-                v-if="!showDownload"
+                v-if="showDownload"
               >
                 <a href="#/room1">
                   <i class="material-icons">home</i>
@@ -129,7 +139,7 @@
               <md-list-item
                 href="javascript:void(0)"
                 @click="scrollToElement2()"
-                v-if="!showDownload"
+                v-if="showDownload"
               >
                 <a href="#/room2">
                   <i class="material-icons">holiday_village</i>
@@ -140,7 +150,7 @@
               <md-list-item
                 href="javascript:void(0)"
                 @click="scrollToElement2()"
-                v-if="!showDownload"
+                v-if="showDownload"
               >
                 <a href="#/landing">
                   <i class="material-icons">view_day</i>
