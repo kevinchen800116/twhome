@@ -4,10 +4,10 @@
       <div class="md-layout">
         <div class="md-layout-item">
           <div class="image-wrapper">
-            <img :src="leaf4" alt="leaf4" class="leaf4" v-show="leafShow" />
+            <!-- <img :src="leaf4" alt="leaf4" class="leaf4" v-show="leafShow" />
             <img :src="leaf3" alt="leaf3" class="leaf3" v-show="leafShow" />
             <img :src="leaf2" alt="leaf2" class="leaf2" v-show="leafShow" />
-            <img :src="leaf1" alt="leaf1" class="leaf1" v-show="leafShow" />
+            <img :src="leaf1" alt="leaf1" class="leaf1" v-show="leafShow" /> -->
             <div class="brand">
               <h1>童玩民宿</h1>
               <h3>歡迎您一起開啟秘境之旅!</h3>
@@ -37,6 +37,12 @@
                 民宿鄰近還有24小時便利商店，提供最佳生活機能。
                 快來宜蘭享受專屬於你，一趟追尋幸福的假期。
               </p>
+              <h2>2020安心旅遊補助：</h2>
+              <h4>
+                安心旅遊/健康住宿 入住觀光局百大好客民宿
+                可申請→安心旅遊補助：不分平假日（7/1～10/31），每房折扣1000元。
+                可使用→實體振興三倍券：折扣後，房款餘額全可使用。
+              </h4>
             </div>
           </div>
         </div>
@@ -139,6 +145,7 @@ export default {
     image: {
       type: String,
       default: require("@/assets/img/vue-mk-header.jpg")
+      // default: require("@/assets/img/nature.jpg")
     },
     leaf4: {
       type: String,

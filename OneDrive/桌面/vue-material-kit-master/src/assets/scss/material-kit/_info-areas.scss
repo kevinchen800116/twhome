@@ -21,6 +21,14 @@
     p{
         color: $gray-color;
     }
+    ul{
+      // list-style-type:none;
+      display: inline-block;
+      list-style-type:circle;
+    }
+    li{
+      text-align: left;
+    }
 }
 
 .info-horizontal{
