@@ -6,12 +6,12 @@
           <div
             class="md-layout-item md-size-50 md-small-size-70 md-xsmall-size-100"
           >
-            <h1 class="title">經典雙人房</h1>
-            <h4 style="width:650px">
-              位於「童玩」的二樓，擁有優雅睡眠空間的雙人房型，在這裏您有了另一種選擇!
-            </h4>
-            <br />
-            <!-- <md-button
+            <h1 class="title">客房服務項目</h1>
+            <!-- <h4>
+              客房注意事項及服務項目
+            </h4> -->
+            <!-- <br />
+            <md-button
               href="https://www.youtube.com/watch?v=dQw4w9WgXcQ"
               class="md-success md-lg"
               target="_blank"
@@ -25,7 +25,7 @@
       <div class="section">
         <div class="container">
           <div class="md-layout">
-            <div class="md-layout-item md-size-500 mx-auto md-small-size-100">
+            <div class="md-layout-item md-size-66 mx-auto md-small-size-100">
               <md-card>
                 <carousel
                   :per-page="1"

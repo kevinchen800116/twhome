@@ -4,7 +4,7 @@
       <div class="navigation-example" :style="bgImage">
         <div class="md-layout">
           <div class="md-layout-item">
-            <md-toolbar class="md-rose">
+            <!-- <md-toolbar class="md-rose">
               <div class="md-toolbar-row">
                 <div class="md-toolbar-section-start">
                   <h3 class="md-title">Brand</h3>
@@ -41,8 +41,8 @@
                   </div>
                 </div>
               </div>
-            </md-toolbar>
-            <md-toolbar class="md-info">
+            </md-toolbar> -->
+            <!-- <md-toolbar class="md-info">
               <div class="md-toolbar-row">
                 <div class="md-toolbar-section-start">
                   <h3 class="md-title">Info Color</h3>
@@ -73,8 +73,8 @@
                   </div>
                 </div>
               </div>
-            </md-toolbar>
-            <md-toolbar class="md-primary">
+            </md-toolbar> -->
+            <!-- <md-toolbar class="md-primary">
               <div class="md-toolbar-row">
                 <div class="md-toolbar-section-start">
                   <h3 class="md-title">Primary Color</h3>
@@ -108,8 +108,8 @@
                   </div>
                 </div>
               </div>
-            </md-toolbar>
-            <md-toolbar class="md-dark">
+            </md-toolbar> -->
+            <!-- <md-toolbar class="md-dark">
               <div class="md-toolbar-row">
                 <div class="md-toolbar-section-start">
                   <h3 class="md-title">Navbar with notification</h3>
@@ -184,8 +184,8 @@
                   </div>
                 </div>
               </div>
-            </md-toolbar>
-            <md-toolbar class="md-white">
+            </md-toolbar> -->
+            <!-- <md-toolbar class="md-white">
               <div class="md-toolbar-row">
                 <div class="md-toolbar-section-start">
                   <h3 class="md-title">Navbar with profile</h3>
@@ -225,11 +225,11 @@
                   </div>
                 </div>
               </div>
-            </md-toolbar>
+            </md-toolbar> -->
             <md-toolbar class="md-transparent">
               <div class="md-toolbar-row">
                 <div class="md-toolbar-section-start">
-                  <h3 class="md-title">Transparent</h3>
+                  <h3 class="md-title" style="color:black">Transparent</h3>
                 </div>
                 <div class="md-toolbar-section-end">
                   <md-button
@@ -244,17 +244,17 @@
                     <md-list>
                       <md-list-item href="javascript:void(0)">
                         <i class="fab fa-facebook-square"></i>
-                        <p>Facebook</p>
+                        <p style="color:black">Facebook</p>
                       </md-list-item>
 
                       <md-list-item href="javascript:void(0)">
                         <i class="fab fa-twitter"></i>
-                        <p>Twitter</p>
+                        <p style="color:black">Twitter</p>
                       </md-list-item>
 
                       <md-list-item href="javascript:void(0)">
                         <i class="fab fa-instagram"></i>
-                        <p>Instagram</p>
+                        <p style="color:black">Instagram</p>
                       </md-list-item>
                     </md-list>
                   </div>

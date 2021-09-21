@@ -6,12 +6,12 @@
           <div
             class="md-layout-item md-size-50 md-small-size-70 md-xsmall-size-100"
           >
-            <h1 class="title">親子四人房</h1>
-            <h4 style="width:650px">
-              位於「童玩」的三樓，擁有兩個睡眠空間的四人房型，不同於一般兩張床併排的四人房，我們以乾溼分離的衛浴區隔出前房和後房，想一起出門玩又怕睡不好嗎?!在這裏您有了另一種選擇!
-            </h4>
-            <br />
-            <!-- <md-button
+            <h1 class="title">客房服務項目</h1>
+            <!-- <h4>
+              客房注意事項及服務項目
+            </h4> -->
+            <!-- <br />
+            <md-button
               href="https://www.youtube.com/watch?v=dQw4w9WgXcQ"
               class="md-success md-lg"
               target="_blank"

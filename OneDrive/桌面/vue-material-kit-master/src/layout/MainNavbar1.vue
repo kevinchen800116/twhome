@@ -15,94 +15,17 @@
           class="img-raised rounded-circle img-fluid"
         />
       </div>
-      <!-- <div class="md-toolbar-section-start">
-        <h3 class="md-title">童玩民宿</h3>
-      </div> -->
-      <div class="md-toolbar-section-end">
-        <md-button
-          class="md-just-icon md-simple md-toolbar-toggle"
-          :class="{ toggled: toggledClass }"
-          @click="toggleNavbarMobile()"
-        >
-          <span class="icon-bar"></span>
-          <span class="icon-bar"></span>
-          <span class="icon-bar"></span>
-        </md-button>
-
-        <div class="md-collapse">
-          <div class="md-collapse-wrapper">
-            <mobile-menu nav-mobile-section-start="false">
-              <!-- Here you can add your items from the section-start of your toolbar -->
-            </mobile-menu>
-            <md-list>
-              <md-list-item>
-                <a href="#/">
-                  <i class="material-icons">layers</i>
-                  <p>關於我們</p>
-                </a>
-              </md-list-item>
-
-              <md-list-item>
-                <a href="#/profile">
-                  <i class="material-icons">content_paste</i>
-                  <p>訂房須知</p>
-                </a>
-              </md-list-item>
-              <md-list-item
-                href="javascript:void(0)"
-                @click="scrollToElement()"
-              >
-                <a href="#/room">
-                  <i class="material-icons">bed</i>
-                  <p>{{ roomTwo }}</p>
-                </a>
-              </md-list-item>
-
-              <md-list-item
-                href="javascript:void(0)"
-                @click="scrollToElement1()"
-              >
-                <!-- 打開 -->
-                <!-- v-if="showDownload" -->
-                <!-- 關閉 -->
-                <!-- v-if="!showDownload" -->
-                <a href="#/room1">
-                  <i class="material-icons">home</i>
-                  <p>{{ roomFour }}</p>
-                </a>
-              </md-list-item>
-
-              <md-list-item
-                href="javascript:void(0)"
-                @click="scrollToElement2()"
-              >
-                <a href="#/room2">
-                  <i class="material-icons">holiday_village</i>
-                  <p>{{ roomSix }}</p>
-                </a>
-              </md-list-item>
-
-              <md-list-item
-                href="javascript:void(0)"
-                @click="scrollToElement2()"
-              >
-                <a href="#/landing">
-                  <i class="material-icons">view_day</i>
-                  <p>客房服務項目</p>
-                </a>
-              </md-list-item>
-              <md-list-item
-                href="https://www.facebook.com/yilangtwhome"
-                target="_blank"
-              >
-                <i class="fab fa-facebook-square"></i>
-                <p class="hidden-lg">Facebook</p>
-                <md-tooltip md-direction="bottom"
-                  >Like us on Facebook</md-tooltip
-                >
-              </md-list-item>
-            </md-list>
-          </div>
+      <div class="md-collapse">
+        <div class="md-collapse-wrapper">
+          <mobile-menu nav-mobile-section-start="false">
+            <!-- Here you can add your items from the section-start of your toolbar -->
+          </mobile-menu>
+          <md-list>
+            <md-list-item>
+              <i class="material-icons">layers</i>
+              <p>測試</p>
+            </md-list-item>
+          </md-list>
         </div>
       </div>
     </div>
@@ -179,7 +102,6 @@ export default {
   },
   methods: {
     bodyClick() {
-      console.log("MainNavbar打開關閉的方法");
       let bodyClick = document.getElementById("bodyClick");
 
       if (bodyClick === null) {
@@ -194,7 +116,6 @@ export default {
         bodyClick.remove();
       }
     },
-    // 產出手機板menu的方法
     toggleNavbarMobile() {
       this.NavbarStore.showNavbar = !this.NavbarStore.showNavbar;
       this.toggledClass = !this.toggledClass;

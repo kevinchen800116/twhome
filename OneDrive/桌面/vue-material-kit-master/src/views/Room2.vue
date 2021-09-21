@@ -6,14 +6,12 @@
           <div
             class="md-layout-item md-size-50 md-small-size-70 md-xsmall-size-100"
           >
-            <h1 class="title">雅緻六人房</h1>
-            <h4 style="width:650px">
-              有多久沒給自己一個充實愉快的假期了！
-              現在趕快拋下緊繃的情緒、枯躁無味的工作壓力
-              給自己一個毫無壓力的悠閒假期吧
-            </h4>
-            <br />
-            <!-- <md-button
+            <h1 class="title">客房服務項目</h1>
+            <!-- <h4>
+              客房注意事項及服務項目
+            </h4> -->
+            <!-- <br />
+            <md-button
               href="https://www.youtube.com/watch?v=dQw4w9WgXcQ"
               class="md-success md-lg"
               target="_blank"

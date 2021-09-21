@@ -106,6 +106,9 @@
 
   &.md-white {
     @include toolbar-colors($white-color, $navbar-color);
+    // $navbar-color  控制menu的字
+    // $white-color  控制menu的背景顏色
+    // @include toolbar-colors($grey-500, $navbar-color);
 
     .md-list-item .md-button.md-simple {
       &,

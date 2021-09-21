@@ -16,6 +16,6 @@ git commit -m 'deploy'
 git push -f https://github.com/kevinchen800116/twhome.git
 cd -
 
-# 執行指令，在終端機輸入 deploy.sh
+# 執行指令，在終端機輸入 sh deploy.sh
 
 # //https://ithelp.ithome.com.tw/articles/10237170?sc=pt 參考網誌
