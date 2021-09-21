@@ -22,7 +22,7 @@
           <javascript-components></javascript-components>
         </div>
       </div>
-      <div class="section">
+      <div class="section" style="margin:0px 70px; padding:0px;">
         <div class="container text-center">
           <div class="md-layout">
             <div

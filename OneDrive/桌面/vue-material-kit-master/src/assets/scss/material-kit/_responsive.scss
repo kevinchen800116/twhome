@@ -421,6 +421,15 @@
   }
 }
 
+@media (min-width: 300px) {
+  .md-toolbar-row,
+  .section .container,
+  .footer .container {
+      max-width: 540px;
+      // 修改
+  }
+}
+
 @media (min-width: 768px) {
   .md-toolbar-row,
   .section .container,
