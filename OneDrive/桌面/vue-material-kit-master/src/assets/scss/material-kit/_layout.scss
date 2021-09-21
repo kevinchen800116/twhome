@@ -1,4 +1,16 @@
 .md-layout-item{
   padding-right: 15px;
   padding-left: 15px;
+
+  ul{
+    list-style-type:none;
+  }
+
+  div{
+    text-align: right;
+
+    // ul{
+    //   list-style-type:none;
+    // }
+  }
 }

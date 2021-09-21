@@ -179,7 +179,7 @@ export default {
   },
   methods: {
     bodyClick() {
-      console.log("MainNavbar打開關閉的方法");
+      // console.log("MainNavbar打開關閉的方法");
       let bodyClick = document.getElementById("bodyClick");
 
       if (bodyClick === null) {

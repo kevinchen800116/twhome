@@ -6,10 +6,10 @@
           <div
             class="md-layout-item md-size-50 md-small-size-70 md-xsmall-size-100"
           >
-            <h1 class="title">客房服務項目</h1>
-            <!-- <h4>
-              客房注意事項及服務項目
-            </h4> -->
+            <h1 class="title">經典雙人房</h1>
+            <h4>
+              位於「童玩」的二樓，擁有優雅睡眠空間的雙人房型。
+            </h4>
             <!-- <br />
             <md-button
               href="https://www.youtube.com/watch?v=dQw4w9WgXcQ"
@@ -96,6 +96,16 @@
                       <li>平日（星期日-四）1800</li>
                       <li>假日（星期五六、假日)2400</li>
                       <li>定價（春節）3200</li>
+                    </ul>
+                  </div>
+                  <div
+                    class="md-layout-item md-size-66 md-small-size-100 mx-auto"
+                  >
+                    <ul
+                      style="list-style-type:none;text-align:left;width:400px;font-weight:bold"
+                    >
+                      <li>盥洗用品 / 吹風機</li>
+                      <li>電熱水瓶 / 茶包 / 咖啡包</li>
                     </ul>
                   </div>
                 </div>

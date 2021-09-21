@@ -45,26 +45,41 @@
               <!-- here you can add your content for tab-content -->
               <template slot="tab-pane-1">
                 <div class="md-layout">
-                  <div class="md-layout-item md-size-25 ml-auto">
+                  <div class="md-layout-item md-size-50 ml-auto">
+                    <!-- <p>匯款銀行：</p>
+                    <p class="ml-auto">台北榮星郵局</p>
+                    <p class="ml-auto">戶　　名：徐葆蘭</p>
+                    <p class="ml-auto">代　　號：700</p> -->
+                    <div>
+                      <ul>
+                        <li>匯款銀行：台北榮星郵局</li>
+                        <li>戶　　名：徐葆蘭</li>
+                        <li>代　　號：700</li>
+                        <!-- <li>帳　　號：0002015-0165676</li>
+                        <li>
+                          匯款完成後，煩請來電告知交易帳號後五碼，即完成訂房手續，謝謝您。
+                        </li> -->
+                      </ul>
+                    </div>
+                  </div>
+                  <div class="md-layout-item md-size-50 mr-auto">
+                    <!-- <p class="mr-auto">帳　　號：0002015-0165676</p>
+                    <p class="mr-auto">
+                      匯款完成後，煩請來電告知交易帳號後五碼，即完成訂房手續，謝謝您。
+                    </p> -->
                     <ul>
-                      <li>匯款銀行：台北榮星郵局</li>
-                      <li>戶　　名：徐葆蘭</li>
-                      <li>代　　號：700</li>
                       <li>帳　　號：0002015-0165676</li>
                       <li>
-                        匯款完成後，煩請來電告知交易帳號後五碼，即完成訂房手續，謝謝您。
+                        匯款完成後，煩請來電告知交易帳號後五碼
                       </li>
+                      <li>即完成訂房手續，謝謝您。</li>
                     </ul>
-                  </div>
-                  <div class="md-layout-item md-size-25 mr-auto">
-                    <!-- <img :src="tabPane1[3].image" class="rounded" />
-                    <img :src="tabPane1[2].image" class="rounded" /> -->
                   </div>
                 </div>
               </template>
               <template slot="tab-pane-2">
                 <div class="md-layout">
-                  <div class="md-layout-item md-size-25 ml-auto">
+                  <div class="md-layout-item md-size-100 ml-auto">
                     <!-- <img :src="tabPane2[0].image" class="rounded" />
                     <img :src="tabPane2[1].image" class="rounded" />
                     <img :src="tabPane2[2].image" class="rounded" /> -->
@@ -88,7 +103,7 @@
                       90公分以下的小朋友不收費，但每房以一位為限，同房第二位以上按人數加收加人費用300元。
                     </p>
                   </div>
-                  <div class="md-layout-item md-size-25 mr-auto">
+                  <div class="md-layout-item md-size-100 mr-auto">
                     <!-- <img :src="tabPane2[3].image" class="rounded" />
                     <img :src="tabPane2[4].image" class="rounded" /> -->
                     <p>
@@ -111,7 +126,7 @@
               </template>
               <template slot="tab-pane-3">
                 <div class="md-layout">
-                  <div class="md-layout-item md-size-25 ml-auto">
+                  <div class="md-layout-item md-size-100 ml-auto">
                     <!-- <img :src="tabPane3[0].image" class="rounded" />
                     <img :src="tabPane3[1].image" class="rounded" /> -->
                     <p>
@@ -127,7 +142,7 @@
                       <li>於預定住宿日當日或怠於通知者，無法退還訂金。</li>
                     </ul>
                   </div>
-                  <div class="md-layout-item md-size-25 mr-auto">
+                  <div class="md-layout-item md-size-100 mr-auto">
                     <!-- <img :src="tabPane3[2].image" class="rounded" />
                     <img :src="tabPane3[3].image" class="rounded" />
                     <img :src="tabPane3[4].image" class="rounded" /> -->
