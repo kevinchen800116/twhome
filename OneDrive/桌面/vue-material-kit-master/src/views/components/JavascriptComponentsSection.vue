@@ -190,6 +190,12 @@
               <slide>
                 <img :src="carousel6" alt="carousel6" />
               </slide>
+              <slide>
+                <img :src="carousel7" alt="carousel7" />
+              </slide>
+              <slide>
+                <img :src="carousel8" alt="carousel8" />
+              </slide>
             </carousel>
           </md-card>
         </div>
@@ -213,7 +219,9 @@ export default {
       carousel3: require("@/assets/img/nature-6.jpg"),
       carousel4: require("@/assets/img/nature-2.jpg"),
       carousel5: require("@/assets/img/nature-4.jpg"),
-      carousel6: require("@/assets/img/nature-5.jpg")
+      carousel6: require("@/assets/img/nature-5.jpg"),
+      carousel7: require("@/assets/img/nature-10.jpg"),
+      carousel8: require("@/assets/img/nature-8.jpg")
     };
   },
   methods: {

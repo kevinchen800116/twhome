@@ -10,13 +10,6 @@
             <h4>
               位於「童玩」的三樓，是擁有兩個睡眠空間的四人房型。
             </h4>
-            <!-- <br />
-            <md-button
-              href="https://www.youtube.com/watch?v=dQw4w9WgXcQ"
-              class="md-success md-lg"
-              target="_blank"
-              ><i class="fas fa-play"></i> Watch video</md-button
-            > -->
           </div>
         </div>
       </div>
@@ -39,314 +32,60 @@
                   navigationPrevLabel="<i class='material-icons'>keyboard_arrow_left</i>"
                 >
                   <slide>
-                    <!-- <div class="carousel-caption">
-                  <h4>
-                    <md-icon>location_on</md-icon>
-                    Somewhere Beyond, United States
-                  </h4>
-                </div> -->
                     <img :src="carousel1" alt="carousel1" />
                   </slide>
                   <slide>
-                    <!-- <div class="carousel-caption">
-                  <h4>
-                    <md-icon>location_on</md-icon>
-                    Yellowstone National Park, United States
-                  </h4>
-                </div> -->
                     <img :src="carousel2" alt="carousel2" />
                   </slide>
                   <slide>
-                    <!-- <div class="carousel-caption">
-                  <h4>
-                    <md-icon>location_on</md-icon>
-                    Yellowstone National Park, United States
-                  </h4>
-                </div> -->
                     <img :src="carousel3" alt="carousel3" />
                   </slide>
                   <slide>
-                    <!-- <div class="carousel-caption">
-                  <h4>
-                    <md-icon>location_on</md-icon>
-                    Yellowstone National Park, United States
-                  </h4>
-                </div> -->
                     <img :src="carousel4" alt="carousel4" />
+                  </slide>
+                  <slide>
+                    <img :src="carousel5" alt="carousel5" />
                   </slide>
                 </carousel>
               </md-card>
+              <ul>
+                <li>平日（星期日-四）2800</li>
+                <li>假日（星期五六、假日)3400</li>
+                <li>定價（春節）4800</li>
+              </ul>
+              <ul>
+                <li>盥洗用品 / 吹風機</li>
+                <li>電熱水瓶 / 茶包 / 咖啡包</li>
+              </ul>
             </div>
           </div>
-          <div class="md-layout">
+          <!-- <div class="md-layout">
             <div class="section section-download" id="downloadSection1">
               <div class="container">
                 <div class="md-layout text-center">
-                  <!-- <div>
-                    <img
-                      src="@/assets/img/nature-2.jpg"
-                      alt="雙人房"
-                      class="img-thumbnail"
-                    />
-                  </div> -->
                   <div
                     class="md-layout-item md-size-66 md-small-size-100 mx-auto"
                   >
-                    <ul style="text-align:left;width:400px;font-weight:bold">
-                      <li>平日（星期日-四）1800</li>
-                      <li>假日（星期五六、假日)2400</li>
-                      <li>定價（春節）3200</li>
+                    <ul>
+                      <li>平日（星期日-四）2800</li>
+                      <li>假日（星期五六、假日)3400</li>
+                      <li>定價（春節）4800</li>
                     </ul>
                   </div>
                   <div
                     class="md-layout-item md-size-66 md-small-size-100 mx-auto"
                   >
-                    <ul
-                      style="list-style-type:none;text-align:left;width:400px;font-weight:bold"
-                    >
+                    <ul>
                       <li>盥洗用品 / 吹風機</li>
                       <li>電熱水瓶 / 茶包 / 咖啡包</li>
                     </ul>
                   </div>
-                </div>
-                <br /><br />
-              </div>
-            </div>
-          </div>
-          <!-- <div class="features text-center">
-            <div class="md-layout">
-              <div class="md-layout-item md-medium-size-33 md-small-size-100">
-                <div class="info">
-                  <div class="icon icon-info">
-                    <md-icon>chat</md-icon>
-                  </div>
-                  <h4 class="info-title">Free Chat</h4>
-                  <p>
-                    Divide details about your product or agency work into parts.
-                    Write a few lines about each one. A paragraph describing a
-                    feature will be enough.
-                  </p>
-                </div>
-              </div>
-              <div class="md-layout-item md-medium-size-33 md-small-size-100">
-                <div class="info">
-                  <div class="icon icon-success">
-                    <md-icon>verified_user</md-icon>
-                  </div>
-                  <h4 class="info-title">Verified Users</h4>
-                  <p>
-                    Divide details about your product or agency work into parts.
-                    Write a few lines about each one. A paragraph describing a
-                    feature will be enough.
-                  </p>
-                </div>
-              </div>
-              <div class="md-layout-item md-medium-size-33 md-small-size-100">
-                <div class="info">
-                  <div class="icon icon-danger">
-                    <md-icon>fingerprint</md-icon>
-                  </div>
-                  <h4 class="info-title">Fingerprint</h4>
-                  <p>
-                    Divide details about your product or agency work into parts.
-                    Write a few lines about each one. A paragraph describing a
-                    feature will be enough.
-                  </p>
                 </div>
               </div>
             </div>
           </div> -->
         </div>
       </div>
-      <!-- <div class="section text-center">
-        <div class="container">
-          <h2 class="title">Here is our team</h2>
-          <div class="team">
-            <div class="md-layout">
-              <div class="md-layout-item md-medium-size-33 md-small-size-100">
-                <div class="team-player">
-                  <md-card class="md-card-plain">
-                    <div class="md-layout-item md-size-50 mx-auto">
-                      <img
-                        :src="teamImg1"
-                        alt="Thumbnail Image"
-                        class="img-raised rounded-circle img-fluid"
-                      />
-                    </div>
-                    <h4 class="card-title">
-                      Gigi Hadid
-                      <br />
-                      <small class="card-description text-muted">Model</small>
-                    </h4>
-
-                    <md-card-content>
-                      <p class="card-description">
-                        You can write here details about one of your team
-                        members. You can give more details about what they do.
-                        Feel free to add some <a href="#">links</a> for people
-                        to be able to follow them outside the site.
-                      </p>
-                    </md-card-content>
-
-                    <md-card-actions class="text-center">
-                      <md-button
-                        href="javascript:void(0)"
-                        class="md-just-icon md-simple"
-                      >
-                        <i class="fab fa-twitter"></i>
-                      </md-button>
-                      <md-button
-                        href="javascript:void(0)"
-                        class="md-just-icon md-simple"
-                      >
-                        <i class="fab fa-instagram"></i>
-                      </md-button>
-                      <md-button
-                        href="javascript:void(0)"
-                        class="md-just-icon md-simple"
-                      >
-                        <i class="fab fa-facebook-square"></i>
-                      </md-button>
-                    </md-card-actions>
-                  </md-card>
-                </div>
-              </div>
-              <div class="md-layout-item md-medium-size-33 md-small-size-100">
-                <div class="team-player">
-                  <md-card class="md-card-plain">
-                    <div class="md-layout-item md-size-50 mx-auto">
-                      <img
-                        :src="teamImg2"
-                        alt="Thumbnail Image"
-                        class="img-raised rounded-circle img-fluid"
-                      />
-                    </div>
-                    <h4 class="card-title">
-                      Carla Hortensia
-                      <br />
-                      <small class="card-description text-muted"
-                        >Designer</small
-                      >
-                    </h4>
-
-                    <md-card-content>
-                      <p class="card-description">
-                        You can write here details about one of your team
-                        members. You can give more details about what they do.
-                        Feel free to add some <a href="#">links</a> for people
-                        to be able to follow them outside the site.
-                      </p>
-                    </md-card-content>
-
-                    <md-card-actions class="text-center">
-                      <md-button
-                        href="javascript:void(0)"
-                        class="md-just-icon md-simple"
-                      >
-                        <i class="fab fa-twitter"></i>
-                      </md-button>
-                      <md-button
-                        href="javascript:void(0)"
-                        class="md-just-icon md-simple"
-                      >
-                        <i class="fab fa-linkedin"></i>
-                      </md-button>
-                    </md-card-actions>
-                  </md-card>
-                </div>
-              </div>
-              <div class="md-layout-item md-medium-size-33 md-small-size-100">
-                <div class="team-player">
-                  <md-card class="md-card-plain">
-                    <div class="md-layout-item md-size-50 mx-auto">
-                      <img
-                        :src="teamImg3"
-                        alt="Thumbnail Image"
-                        class="img-raised rounded-circle img-fluid"
-                      />
-                    </div>
-                    <h4 class="card-title">
-                      Kendall Jenner
-                      <br />
-                      <small class="card-description text-muted">Model</small>
-                    </h4>
-
-                    <md-card-content>
-                      <p class="card-description">
-                        You can write here details about one of your team
-                        members. You can give more details about what they do.
-                        Feel free to add some <a href="#">links</a> for people
-                        to be able to follow them outside the site.
-                      </p>
-                    </md-card-content>
-
-                    <md-card-actions class="text-center">
-                      <md-button
-                        href="javascript:void(0)"
-                        class="md-just-icon md-simple"
-                      >
-                        <i class="fab fa-twitter"></i>
-                      </md-button>
-                      <md-button
-                        href="javascript:void(0)"
-                        class="md-just-icon md-simple"
-                      >
-                        <i class="fab fa-instagram"></i>
-                      </md-button>
-                      <md-button
-                        href="javascript:void(0)"
-                        class="md-just-icon md-simple"
-                      >
-                        <i class="fab fa-facebook-square"></i>
-                      </md-button>
-                    </md-card-actions>
-                  </md-card>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div> -->
-      <!-- <div class="section section-contacts">
-        <div class="container">
-          <div class="md-layout">
-            <div class="md-layout-item md-size-66 md-xsmall-size-100 mx-auto">
-              <h2 class="text-center title">Work with us</h2>
-              <h4 class="text-center description">
-                Divide details about your product or agency work into parts.
-                Write a few lines about each one and contact us about any
-                further collaboration. We will responde get back to you in a
-                couple of hours.
-              </h4>
-              <form class="contact-form">
-                <div class="md-layout">
-                  <div class="md-layout-item md-size-50">
-                    <md-field>
-                      <label>Your Name</label>
-                      <md-input v-model="name" type="text"></md-input>
-                    </md-field>
-                  </div>
-                  <div class="md-layout-item md-size-50">
-                    <md-field>
-                      <label>Your Email</label>
-                      <md-input v-model="email" type="email"></md-input>
-                    </md-field>
-                  </div>
-                </div>
-                <md-field maxlength="5">
-                  <label>Your Message</label>
-                  <md-textarea v-model="message"></md-textarea>
-                </md-field>
-                <div class="md-layout">
-                  <div class="md-layout-item md-size-33 mx-auto text-center">
-                    <md-button class="md-success">Send Message</md-button>
-                  </div>
-                </div>
-              </form>
-            </div>
-          </div>
-        </div>
-      </div> -->
     </div>
   </div>
 </template>
@@ -382,7 +121,8 @@ export default {
       carousel1: require("@/assets/img/room2-1.jpg"),
       carousel2: require("@/assets/img/room2-2.jpg"),
       carousel3: require("@/assets/img/room2-3.jpg"),
-      carousel4: require("@/assets/img/room2-4.jpg")
+      carousel4: require("@/assets/img/room2-4.jpg"),
+      carousel5: require("@/assets/img/room2-5.jpg")
     };
   },
   computed: {
