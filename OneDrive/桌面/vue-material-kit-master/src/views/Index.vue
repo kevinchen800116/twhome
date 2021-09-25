@@ -28,9 +28,9 @@
             <div
               class="md-layout-item md-size-66 md-xsmall-size-100 ml-auto mr-auto text-center"
             >
-              <h1 class="title">
+              <h2 class="title">
                 <span class="tim-note text-primary">民宿簡介</span>
-              </h1>
+              </h2>
               <p class="text-primary">
                 童玩民宿位於五結交流道附近，鄰近轉運站、羅東火車站，交通十分便利，
                 距離羅東夜市、傳統藝術中心、冬山河親水公園等知名景點只需幾分鐘路程，
@@ -38,9 +38,9 @@
                 快來宜蘭享受專屬於你，一趟追尋幸福的假期。
               </p>
               <hr />
-              <h2 class="title">
+              <h3 class="title">
                 <span class="tim-note text-info">最新消息</span>
-              </h2>
+              </h3>
               <h4 class="title">
                 <span class="tim-note text-info">2020安心旅遊補助：</span>
               </h4>
@@ -56,9 +56,8 @@
               <p class="text-info">可幫忙代訂烤肉食材、賞鯨套票，費用另計。</p>
               <p class="text-info">
                 若想<badge type="rose">登陸龜山島</badge>者，請先行至
-                <badge type="rose"
-                  >交通部觀光局東北角暨宜蘭海岸國家風景區管理處</badge
-                >
+                <badge type="rose">交通部觀光局東北角</badge>暨
+                <badge type="rose">宜蘭海岸國家風景區管理處</badge>
               </p>
               <p class="text-info">
                 申請<badge type="rose">龜山島登島登記 </badge
@@ -83,7 +82,7 @@
                 ><i class="fas fa-play"></i>登島須知影片
               </md-button>
               <hr />
-              <h2 class="title">
+              <h3 class="title">
                 <i class="material-icons text-primary">landscape</i>
                 <router-link to="/Travel"
                   ><span class="tim-note text-primary"
@@ -91,7 +90,7 @@
                   ></router-link
                 >
                 <!-- <router-link to="/Travel">Go to Foo</router-link> -->
-              </h2>
+              </h3>
               <md-card>
                 <carousel
                   :per-page="1"
@@ -200,6 +199,7 @@ export default {
       email: null,
       password: null,
       leafShow: false,
+      classicModal: false,
       carousel1: require("@/assets/img/tranditional.jpg"),
       carousel2: require("@/assets/img/spring2.jpg"),
       carousel3: require("@/assets/img/turtle.jpg"),
