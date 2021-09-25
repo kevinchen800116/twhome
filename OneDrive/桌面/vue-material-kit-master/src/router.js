@@ -7,6 +7,7 @@ import Profile from "./views/Profile.vue";
 import Room from "./views/Room.vue";
 import Room1 from "./views/Room1.vue";
 import Room2 from "./views/Room2.vue";
+import Travel from "./views/Travel.vue";
 import MainNavbar from "./layout/MainNavbar.vue";
 import MainFooter from "./layout/MainFooter.vue";
 
@@ -71,6 +72,15 @@ export default new Router({
       path: "/room2",
       name: "room2",
       components: { default: Room2, header: MainNavbar, footer: MainFooter },
+      props: {
+        header: { colorOnScroll: 400 },
+        footer: { backgroundColor: "black" }
+      }
+    },
+    {
+      path: "/travel",
+      name: "travel",
+      components: { default: Travel, header: MainNavbar, footer: MainFooter },
       props: {
         header: { colorOnScroll: 400 },
         footer: { backgroundColor: "black" }

@@ -29,37 +29,69 @@
               class="md-layout-item md-size-66 md-xsmall-size-100 ml-auto mr-auto text-center"
             >
               <h1 class="title">
-                <span class="tim-note">民宿簡介</span>
+                <span class="tim-note text-primary">民宿簡介</span>
               </h1>
-              <!-- <h4 class="title">
-                <span class="tim-note">民宿簡介</span>
-              </h4> -->
-              <p>
+              <p class="text-primary">
                 童玩民宿位於五結交流道附近，鄰近轉運站、羅東火車站，交通十分便利，
                 距離羅東夜市、傳統藝術中心、冬山河親水公園等知名景點只需幾分鐘路程，
                 民宿鄰近還有24小時便利商店，提供最佳生活機能。
                 快來宜蘭享受專屬於你，一趟追尋幸福的假期。
               </p>
+              <hr />
               <h2 class="title">
-                <span class="tim-note">最新消息</span>
+                <span class="tim-note text-info">最新消息</span>
               </h2>
               <h4 class="title">
-                <span class="tim-note"
-                  >可代訂烤肉食材、賞鯨套票，費用另計。</span
-                >
+                <span class="tim-note text-info">2020安心旅遊補助：</span>
               </h4>
-              <i class="large fa fa-ship"></i>
+              <!-- <h2></h2> -->
+              <p class="text-info">
+                安心旅遊/健康住宿 入住觀光局百大好客民宿
+                可申請→安心旅遊補助：不分平假日（7/1～10/31），每房折扣1000元。
+                可使用→實體振興三倍券：折扣後，房款餘額全可使用。
+              </p>
+              <h4 class="title">
+                <span class="tim-note text-info">代訂服務：</span>
+              </h4>
+              <p class="text-info">可幫忙代訂烤肉食材、賞鯨套票，費用另計。</p>
+              <p class="text-info">
+                若想<badge type="rose">登陸龜山島</badge>者，請先行至
+                <badge type="rose"
+                  >交通部觀光局東北角暨宜蘭海岸國家風景區管理處</badge
+                >
+              </p>
+              <p class="text-info">
+                申請<badge type="rose">龜山島登島登記 </badge
+                >後，再行訂購船票，可至官方連結自行聯絡業者。
+              </p>
+              <md-button
+                class="md-rose md-round"
+                target="_blank"
+                href="https://events.necoast-nsa.gov.tw/Coast/Application.aspx?a=2659"
+                ><i class="fas fa-hand-point-up"></i>登島線上申請</md-button
+              >
               <md-button
                 class="md-info md-round"
-                href="https://events.necoast-nsa.gov.tw/coast/"
-                >自行訂購賞鯨船票連結</md-button
+                target="_blank"
+                href="https://events.necoast-nsa.gov.tw/Coast/Articles.aspx?a=2662"
+                ><i class="fa fa fa-ship"></i>船舶資訊</md-button
               >
-              <h4 class="title">
-                <span class="tim-note text-info">龜山島簡介</span>
-              </h4>
-              <p class="text-info">
-                龜山島位於宜蘭縣頭城鎮海岸以東約10公里處，是孤懸於海中之火山島嶼，因其形似浮龜而得名，更曾被國際知名自然網站《WHEN ON EARTH》列為全世界最酷的小島之一，來到東北角除了觀覽濱海美景和壯麗的巨岩礁石，現在還可搭上船航向宜蘭外海上的神祕小島，暢遊藍色公路，一路玩進龜山島！
-              </p>
+              <md-button
+                href="https://events.necoast-nsa.gov.tw/Coast/Articles.aspx?a=2655"
+                class="md-success md-round"
+                target="_blank"
+                ><i class="fas fa-play"></i>登島須知影片
+              </md-button>
+              <hr />
+              <h2 class="title">
+                <i class="material-icons text-primary">landscape</i>
+                <router-link to="/Travel"
+                  ><span class="tim-note text-primary"
+                    >鄰近景點</span
+                  ></router-link
+                >
+                <!-- <router-link to="/Travel">Go to Foo</router-link> -->
+              </h2>
               <md-card>
                 <carousel
                   :per-page="1"
@@ -81,20 +113,15 @@
                   <slide>
                     <img :src="carousel3" alt="carousel3" />
                   </slide>
-                  <!-- <slide>
+                  <slide>
                     <img :src="carousel4" alt="carousel4" />
                   </slide>
                   <slide>
                     <img :src="carousel5" alt="carousel5" />
-                  </slide> -->
+                  </slide>
                 </carousel>
               </md-card>
-              <h2>2020安心旅遊補助：</h2>
-              <h4>
-                安心旅遊/健康住宿 入住觀光局百大好客民宿
-                可申請→安心旅遊補助：不分平假日（7/1～10/31），每房折扣1000元。
-                可使用→實體振興三倍券：折扣後，房款餘額全可使用。
-              </h4>
+              <!-- <hr /> -->
             </div>
           </div>
         </div>
@@ -113,6 +140,7 @@
 // import Notifications from "./components/NotificationsSection";
 // import TypographyImages from "./components/TypographyImagesSection";
 import JavascriptComponents from "./components/JavascriptComponentsSection";
+import { Badge } from "@/components";
 // import { LoginCard } from "@/components";
 
 export default {
@@ -124,6 +152,7 @@ export default {
     // NavPills,
     // Notifications,
     // TypographyImages,
+    Badge,
     JavascriptComponents
     // LoginCard
   },
@@ -171,11 +200,11 @@ export default {
       email: null,
       password: null,
       leafShow: false,
-      carousel1: require("@/assets/img/turtle.jpg"),
-      carousel2: require("@/assets/img/dolphlin.jpg"),
-      carousel3: require("@/assets/img/dolphlin2.jpg")
-      // carousel4: require("@/assets/img/room2-4.jpg"),
-      // carousel5: require("@/assets/img/room2-5.jpg")
+      carousel1: require("@/assets/img/tranditional.jpg"),
+      carousel2: require("@/assets/img/spring2.jpg"),
+      carousel3: require("@/assets/img/turtle.jpg"),
+      carousel4: require("@/assets/img/spring.jpg"),
+      carousel5: require("@/assets/img/night.jpg")
     };
   },
   methods: {

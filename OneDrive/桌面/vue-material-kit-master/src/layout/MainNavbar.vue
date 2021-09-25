@@ -91,6 +91,12 @@
                   <p>客房服務項目</p>
                 </a>
               </md-list-item>
+              <md-list-item href="javascript:void(0)">
+                <a href="#/Travel">
+                  <i class="material-icons">landscape</i>
+                  <p>鄰近景點</p>
+                </a>
+              </md-list-item>
               <md-list-item
                 href="https://www.facebook.com/yilangtwhome"
                 target="_blank"
