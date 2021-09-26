@@ -56,7 +56,7 @@
               <p class="text-info">可幫忙代訂烤肉食材、賞鯨套票，費用另計。</p>
               <p class="text-info">
                 若想<badge type="rose">登陸龜山島</badge>者，請先行至
-                <badge type="rose">交通部觀光局東北角</badge>暨
+                <badge type="rose">交通部觀光局東北角暨</badge>
                 <badge type="rose">宜蘭海岸國家風景區管理處</badge>
               </p>
               <p class="text-info">
@@ -82,45 +82,63 @@
                 ><i class="fas fa-play"></i>登島須知影片
               </md-button>
               <hr />
-              <h3 class="title">
-                <i class="material-icons text-primary">landscape</i>
-                <router-link to="/Travel"
-                  ><span class="tim-note text-primary"
-                    >鄰近景點</span
-                  ></router-link
-                >
-                <!-- <router-link to="/Travel">Go to Foo</router-link> -->
-              </h3>
-              <md-card>
-                <carousel
-                  :per-page="1"
-                  loop
-                  :speed="700"
-                  autoplay
-                  :autoplay-timeout="5000"
-                  :mouse-drag="false"
-                  navigationEnabled
-                  navigationNextLabel="<i class='material-icons'>keyboard_arrow_right</i>"
-                  navigationPrevLabel="<i class='material-icons'>keyboard_arrow_left</i>"
-                >
-                  <slide>
-                    <img :src="carousel1" alt="carousel1" />
-                  </slide>
-                  <slide>
-                    <img :src="carousel2" alt="carousel2" />
-                  </slide>
-                  <slide>
-                    <img :src="carousel3" alt="carousel3" />
-                  </slide>
-                  <slide>
-                    <img :src="carousel4" alt="carousel4" />
-                  </slide>
-                  <slide>
-                    <img :src="carousel5" alt="carousel5" />
-                  </slide>
-                </carousel>
-              </md-card>
+              <template>
+                <h3 class="title">
+                  <i class="material-icons text-primary">landscape</i>
+                  <router-link to="/Travel"
+                    ><span class="tim-note text-primary"
+                      >鄰近景點</span
+                    ></router-link
+                  >
+                  <!-- <router-link to="/Travel">Go to Foo</router-link> -->
+                </h3>
+                <md-card>
+                  <carousel
+                    :per-page="1"
+                    loop
+                    :speed="700"
+                    autoplay
+                    :autoplay-timeout="5000"
+                    :mouse-drag="false"
+                    navigationEnabled
+                    navigationNextLabel="<i class='material-icons'>keyboard_arrow_right</i>"
+                    navigationPrevLabel="<i class='material-icons'>keyboard_arrow_left</i>"
+                  >
+                    <slide>
+                      <img :src="carousel1" alt="carousel1" />
+                    </slide>
+                    <slide>
+                      <img :src="carousel2" alt="carousel2" />
+                    </slide>
+                    <slide>
+                      <img :src="carousel3" alt="carousel3" />
+                    </slide>
+                    <slide>
+                      <img :src="carousel4" alt="carousel4" />
+                    </slide>
+                    <slide>
+                      <img :src="carousel5" alt="carousel5" />
+                    </slide>
+                  </carousel>
+                </md-card>
+              </template>
               <!-- <hr /> -->
+              <div class="md-layout">
+                <div class="md-layout-item">
+                  <h3 class="text-primary">感謝您的支持</h3>
+                </div>
+              </div>
+              <md-button
+                class="md-facebook"
+                href="https://www.facebook.com/yilangtwhome"
+                ><i class="fab fa-facebook-square"></i> Share</md-button
+              >
+              <md-button
+                class="md-google"
+                href="https://goo.gl/maps/ZkjgGZVUvG1bUHJm6"
+                ><i class="fab fa-google-plus"></i> Share</md-button
+              >
+              <div class="sharing-area text-center"></div>
             </div>
           </div>
         </div>

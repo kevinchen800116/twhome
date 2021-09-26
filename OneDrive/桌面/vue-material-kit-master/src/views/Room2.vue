@@ -101,7 +101,7 @@ export default {
   props: {
     header: {
       type: String,
-      default: require("@/assets/img/bg7.jpg")
+      default: require("@/assets/img/room3-1.jpg")
     }
   },
   data() {
@@ -111,9 +111,9 @@ export default {
       message: null,
       classicModal: false,
       selectedDate: new Date("2018/03/26"),
-      carousel1: require("@/assets/img/room3-1.jpg"),
-      carousel2: require("@/assets/img/room3-2.jpg"),
-      carousel3: require("@/assets/img/room3-3.jpg")
+      carousel1: require("@/assets/img/room3-2.jpg"),
+      carousel2: require("@/assets/img/room3-3.jpg"),
+      carousel3: require("@/assets/img/room3-4.jpg")
     };
   },
   computed: {
