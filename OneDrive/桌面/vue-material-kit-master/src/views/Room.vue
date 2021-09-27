@@ -52,7 +52,7 @@
               </ul>
               <ul>
                 <li>盥洗用品 / 吹風機</li>
-                <li>電熱水瓶 / 茶包 / 咖啡包</li>
+                <li id="downloadSection">電熱水瓶 / 茶包 / 咖啡包</li>
               </ul>
             </div>
           </div>

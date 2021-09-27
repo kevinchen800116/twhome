@@ -173,7 +173,7 @@
                           龜山島位於宜蘭縣頭城鎮海岸以東約10公里處，是孤懸於海中之火山島嶼，因其形似浮龜而得名，更曾被國際知名自然網站《WHEN
                           ON
                           EARTH》列為全世界最酷的小島之一，來到東北角除了觀覽濱海美景和壯麗的巨岩礁石，現在還可搭上船航向宜蘭外海上的神祕小島，暢遊藍色公路，一路玩進龜山島！
-                          Feel free to add some <a href="#">links</a> for people
+                          <!-- Feel free to add some <a href="#">links</a> for people -->
                         </p>
                       </md-card-content>
 

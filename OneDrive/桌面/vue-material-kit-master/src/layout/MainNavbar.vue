@@ -35,67 +35,82 @@
               <!-- Here you can add your items from the section-start of your toolbar -->
             </mobile-menu>
             <md-list>
-              <md-list-item>
-                <a href="#/">
-                  <i class="material-icons">layers</i>
-                  <p>關於我們</p>
-                </a>
+              <md-list-item href="#/">
+                <!-- <a href="#/"> -->
+                <i class="material-icons">layers</i>
+                <p>關於我們</p>
+                <!-- </a> -->
               </md-list-item>
 
-              <md-list-item>
+              <li class="md-list-item">
+                <a
+                  href="javascript:void(0)"
+                  class="md-list-item-router md-list-item-container md-button-clean dropdown"
+                >
+                  <div class="md-list-item-content">
+                    <drop-down direction="down">
+                      <md-button
+                        slot="title"
+                        class="md-button md-button-link md-white md-simple dropdown-toggle"
+                        data-toggle="dropdown"
+                      >
+                        <i class="material-icons">apps</i>
+                        <p>房型介紹</p>
+                      </md-button>
+                      <ul class="dropdown-menu dropdown-with-icons">
+                        <li>
+                          <a href="#/room" @click="scrollToElement()">
+                            <i class="material-icons">bed</i>
+                            <p>{{ roomTwo }}</p>
+                          </a>
+                        </li>
+                        <li>
+                          <a href="#/room1" @click="scrollToElement1()">
+                            <i class="material-icons">home</i>
+                            <p>{{ roomFour }}</p>
+                          </a>
+                        </li>
+                        <li>
+                          <a href="#/room2" @click="scrollToElement2()">
+                            <i class="material-icons">holiday_village</i>
+                            <p>{{ roomSix }}</p>
+                          </a>
+                        </li>
+                      </ul>
+                    </drop-down>
+                  </div>
+                </a>
+              </li>
+
+              <md-list-item href="#/profile">
                 <a href="#/profile">
                   <i class="material-icons">content_paste</i>
                   <p>訂房須知</p>
                 </a>
               </md-list-item>
-              <md-list-item
-                href="javascript:void(0)"
-                @click="scrollToElement()"
-              >
-                <a href="#/room">
-                  <i class="material-icons">bed</i>
-                  <p>{{ roomTwo }}</p>
-                </a>
-              </md-list-item>
 
-              <md-list-item
-                href="javascript:void(0)"
-                @click="scrollToElement1()"
-              >
-                <!-- 打開 -->
-                <!-- v-if="showDownload" -->
-                <!-- 關閉 -->
-                <!-- v-if="!showDownload" -->
-                <a href="#/room1">
-                  <i class="material-icons">home</i>
-                  <p>{{ roomFour }}</p>
-                </a>
-              </md-list-item>
+              <!-- <md-list-item href="#/room" @click="scrollToElement()">
+                <i class="material-icons">bed</i>
+                <p>{{ roomTwo }}</p>
+              </md-list-item> -->
 
-              <md-list-item
-                href="javascript:void(0)"
-                @click="scrollToElement2()"
-              >
-                <a href="#/room2">
-                  <i class="material-icons">holiday_village</i>
-                  <p>{{ roomSix }}</p>
-                </a>
-              </md-list-item>
+              <!-- <md-list-item href="#/room1" @click="scrollToElement1()">
+                <i class="material-icons">home</i>
+                <p>{{ roomFour }}</p>
+              </md-list-item> -->
 
-              <md-list-item
-                href="javascript:void(0)"
-                @click="scrollToElement2()"
-              >
-                <a href="#/landing">
-                  <i class="material-icons">view_day</i>
-                  <p>客房服務項目</p>
-                </a>
+              <!-- <md-list-item href="#/room2" @click="scrollToElement2()">
+                <i class="material-icons">holiday_village</i>
+                <p>{{ roomSix }}</p>
+              </md-list-item> -->
+
+              <md-list-item href="#/landing">
+                <i class="material-icons">view_day</i>
+                <p>客房服務項目</p>
               </md-list-item>
-              <md-list-item href="javascript:void(0)">
-                <a href="#/Travel">
-                  <i class="material-icons">landscape</i>
-                  <p>鄰近景點</p>
-                </a>
+              <md-list-item href="#/Travel">
+                <i class="material-icons">landscape</i>
+                <p>鄰近景點</p>
               </md-list-item>
               <md-list-item
                 href="https://www.facebook.com/yilangtwhome"
@@ -241,6 +256,7 @@ export default {
     },
     scrollToElement2() {
       // this.$router.push("/room2");
+      // console.log("執行了");
       let element_id1 = document.getElementById("downloadSection2");
       if (element_id1) {
         element_id1.scrollIntoView({ block: "end", behavior: "smooth" });
