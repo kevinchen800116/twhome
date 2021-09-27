@@ -9,11 +9,13 @@
     <div class="md-toolbar-row md-collapse-lateral">
       <!-- class="md-transparent md-absolute" -->
       <div style="width: 100px;height: 100px;border-radius: 50%;">
-        <img
-          :src="img"
-          alt="Circle Image"
-          class="img-raised rounded-circle img-fluid"
-        />
+        <a href="#/">
+          <img
+            :src="img"
+            alt="Circle Image"
+            class="img-raised rounded-circle img-fluid"
+          />
+        </a>
       </div>
       <!-- <div class="md-toolbar-section-start">
         <h3 class="md-title">童玩民宿</h3>
